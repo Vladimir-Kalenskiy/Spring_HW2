@@ -7,6 +7,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+/**
+ * Класс сервис для работы с пользователями
+ */
 @Service
 public class UserService {
     /**

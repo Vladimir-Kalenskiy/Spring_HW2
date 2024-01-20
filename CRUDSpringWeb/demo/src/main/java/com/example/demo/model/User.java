@@ -2,12 +2,24 @@ package com.example.demo.model;
 
 import java.util.Objects;
 
+/**
+ * Объект пользователя
+ */
 public class User {
 
+    /**
+     * Уникальный идентификатор пользователя
+     */
     private int id;
 
+    /**
+     * Имя пользователя
+     */
     private String firstName;
 
+    /**
+     * Фамилия пользователя
+     */
     private String lastName;
 
     public int getId() {
